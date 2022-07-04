@@ -1,0 +1,90 @@
+* {
+    margin: unset;
+    padding: unset;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    appearance: none;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    padding: 1.5rem;
+    width: 100%;
+    margin: auto;
+    /* background-color: black; */
+    height: 100%;    
+}
+header {
+    padding: 2rem 0;
+}
+header h1 {
+    padding: 2rem 0 0.9rem 0;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #615f5f;
+}
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5f5e5e;
+}
+.hero {
+    height: 800px;
+    background-color: #e7e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+.hero .img {
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.hero .img img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+}
+.what-his-done{
+    padding: 2rem;
+    width: 65%;
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.what-his-done p strong {
+    color: #3d3c3c;
+}
+.what-his-done p {
+    margin: 1.5rem 0;
+    color: #5f5e5e;
+    padding: 0.8rem;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.3rem;
+    text-transform: capitalize;
+    background-color: #e7e3e3;
+    width: 98%;
+    color: #615f5f;
+    font-size: 1.2rem;
+}
